@@ -1,5 +1,12 @@
-const Header = (probs) => {
-    return <h1>{probs.course}</h1>;
-  };
+import logo from "./LOGO HE VINCI.png";
 
-  export default Header;
+const Header = (probs) => {
+  return (
+    <di>
+       <img src={logo}></img>
+      <h1>{probs.course}</h1>
+    </di>
+  );
+};
+
+export default Header;
